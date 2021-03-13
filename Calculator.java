@@ -16,5 +16,13 @@ public class Calculator {
 		return(sub);
 	}
 
+	public double dividebyzero(int a, int b) {
+		// TODO Auto-generated method stub
+		double divide=(a/b);
+		System.out.println("Divided value= "+divide);
+		return divide;
+		
+	}
+
 	
 }
