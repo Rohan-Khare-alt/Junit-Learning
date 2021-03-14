@@ -23,6 +23,18 @@ public class Calculator {
 		return divide;
 		
 	}
-
+	public int multiply(int a,int b)
+	{
+		int mul=(a*b);
+		System.out.println("The Product of 2 numbers"+mul);
+		return mul;
+	}
+	public double area(double r)
+	{
+		double Ar=(Math.PI*r*r);
+		System.out.println(("area of circle ="+Ar));
+		return(Ar);
+				
+	}
 	
 }
